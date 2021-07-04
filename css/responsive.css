@@ -19,14 +19,10 @@
         justify-content: center;
     }
     .block1,
-.block4,
-.block2,
-.block3 {
-    width: 35%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.block3 {
-
-}
+    .block4,
+    .block2,
+    .block3 {
+        width: 35%;
+        margin: 0 auto;
+        margin-bottom: 20px;
 }

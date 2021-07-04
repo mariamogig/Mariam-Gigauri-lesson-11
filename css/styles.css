@@ -88,16 +88,16 @@
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
     padding-top: 54px;
+    margin-bottom: 6px;
 }
 /* form styles  */
 .contact-form {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     padding-top: 50px;
 }
 .textarea-wrapper {
-    width: 720px;
+    width: 100%;
     height: 288px;
     border: 0.5px solid #E8E8E8;
     background-color: #F8F8F8;
@@ -107,7 +107,8 @@
     font-size: 13px;
 }
 .input-wraper {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     height: 60px;
     border: 0.5px solid #E8E8E8;
     background-color: #F8F8F8;
@@ -131,4 +132,57 @@
 }
 .left {
     margin-right: 16px;
+    max-width: 720px;
+    width: 100%;
+}
+.right {
+    flex-direction: column;
+}
+.form {
+    max-width: 350px;
+    width: 100%;
+}
+
+/* sec 2 styles */
+.sec2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contact-info {
+    text-align: center;
+    justify-content: center;
+    color: #B1B1B1;
+    font-family: 'Poppins', sans-serif;
+}
+.circle {
+    background-color:#5863F8;
+    max-width: 59px;
+    width: 100%;
+    height: 59px;
+    border-radius: 50px;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.fa-envelope,
+.fa-phone-alt,
+.fa-map-marker-alt {
+    padding-top: 23px;
+}
+.cinfo {
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.pinfo {
+    font-size: 14px;
+}
+.sec1p2 {
+    font-size: 42px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    max-width: 570px;
+    width: 100%;
 }

@@ -1,0 +1,18 @@
+@media (max-width: 750px) {
+    .contact-form {
+        flex-wrap: wrap;
+    }
+    .textarea-wrapper {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .left {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .titles {
+        max-width: 350px;
+        margin: 0 auto;
+        padding-left: 0;
+    }
+}

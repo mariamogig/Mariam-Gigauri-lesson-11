@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .titles {
     padding-left: 139px;
 }
@@ -18,8 +25,12 @@
 }
 /* form styles  */
 .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     padding-top: 50px;
 }
 .textarea-wrapper {
@@ -62,7 +73,10 @@
     width: 100%;
 }
 .right {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 .form {
     max-width: 350px;
@@ -71,13 +85,19 @@
 
 /* sec 2 styles */
 .sec2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
 }
 .contact-info {
     text-align: center;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #B1B1B1;
     font-family: 'Poppins', sans-serif;
 }
@@ -113,9 +133,13 @@
     width: 100%;
 }
 .photos {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-top: 60px;
 }
 .image {
@@ -123,9 +147,13 @@
 }
 /* Footer styles */
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     background-color: #121212;
     color: white;
     padding-top: 90px;
@@ -188,6 +216,8 @@
     margin-bottom: 20px;
 }
 .ft-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .fa-envelope-open,
@@ -196,4 +226,9 @@
     color: #5863F8;
     margin-right: 17px;
 }
-
+.block4 {
+    max-width: 255px;
+}
+.footercont {
+    width: 100%;
+}

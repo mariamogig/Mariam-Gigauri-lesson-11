@@ -24,5 +24,9 @@
     .block3 {
         width: 35%;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-top: 20px;
+}
+.block3,
+.block4 {
+    margin-top: 70px;
 }

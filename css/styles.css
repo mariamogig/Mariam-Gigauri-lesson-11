@@ -235,7 +235,10 @@
     color: #5863F8;
     margin-right: 17px;
 }
-.block4 {
+.block4,
+.block2,
+.block3 {
     max-width: 255px;
     width: 100%;
 }
+
